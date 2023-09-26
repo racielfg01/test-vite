@@ -1,6 +1,8 @@
 import { useThemeContext } from "../context/theme";
 import Card1 from "./Card1";
 import Card2 from "./Card2";
+import Image from "../assets/pngegg.png";
+
 
 const Banner = () => {
   const { theme } = useThemeContext();
@@ -19,7 +21,7 @@ const Banner = () => {
           >
             <img
               className=" object-fit md:h-full md:w-48 lg:w-96 lg:mx-4"
-              src="/src/assets/pngegg.png"
+              src={Image}
               alt="Modern building architecture"
             />
           </div>
